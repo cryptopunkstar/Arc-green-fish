@@ -549,71 +549,18 @@ const ArcNFTMinterDApp = () => {
         {/* Footer */}
         <div style={styles.footer}>
           <p style={styles.footerText}>🔐 Keep your private keys safe - never share them</p>
-          <p style={styles.footerText}>⛽ You need testnet ETH for gas fees</p>
+          <p style={styles.footerText}>⛽ You need testnet USDC for gas fees</p>
           <p style={styles.footerText}>🌐 This dApp requires MetaMask browser extension</p>
         </div>
       </div>
 
       <style>{`
-        * {
-          box-sizing: border-box;
-        }
-
-        body, html {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-          height: 100%;
-        }
-
         @keyframes spin {
           from {
             transform: rotate(0deg);
           }
           to {
             transform: rotate(360deg);
-          }
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 640px) {
-          h1 {
-            font-size: 1.75rem !important;
-          }
-          
-          h2 {
-            font-size: 1.25rem !important;
-          }
-          
-          button {
-            font-size: 1rem !important;
-            padding: 0.75rem 1rem !important;
-          }
-
-          div[style*="maxWidth"] {
-            padding: 0 0.5rem !important;
-          }
-        }
-
-        /* Tablet Responsive */
-        @media (min-width: 641px) and (max-width: 1024px) {
-          h1 {
-            font-size: 2rem !important;
-          }
-          
-          h2 {
-            font-size: 1.5rem !important;
-          }
-        }
-
-        /* Desktop */
-        @media (min-width: 1025px) {
-          h1 {
-            font-size: 2.25rem !important;
-          }
-          
-          h2 {
-            font-size: 1.5rem !important;
           }
         }
       `}</style>
