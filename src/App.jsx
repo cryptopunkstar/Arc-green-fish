@@ -10,7 +10,7 @@ const ArcNFTMinterDApp = () => {
   const [tokenId, setTokenId] = useState(null);
   const [copied, setCopied] = useState(false);
 
-  const CONTRACT_ADDRESS = '0xdb18feea49e6f80d4f3e614f7984149572f99438';
+  const CONTRACT_ADDRESS = '0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8';
   const IPFS_CID = 'bafybeighk2fqenssl3lt34vz32z5a7j2r3kalxvpanobvixere5vff47ge';
   const IPFS_GATEWAY = 'https://gateway.pinata.cloud/ipfs/';
   const IPFS_IMAGE_URL = `${IPFS_GATEWAY}${IPFS_CID}`;
